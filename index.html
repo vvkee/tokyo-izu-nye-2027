@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>东京 · 伊豆 跨年行 v4 | 2026-12-31 → 2027-01-04</title>
+<title>东京跨年行 · 三方案对比 | 2026-12-31 → 2027-01-04</title>
 <style>
   * { box-sizing: border-box; margin: 0; padding: 0; }
   body { font-family: -apple-system, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif; background: #f4f6f8; color: #1d2733; line-height: 1.65; }
@@ -14,15 +14,19 @@
   .flightbar { display: flex; flex-wrap: wrap; gap: 8px; justify-content: center; margin-top: 14px; }
   .flightbar span { background: rgba(255,255,255,.16); border: 1px solid rgba(255,255,255,.35); padding: 4px 12px; border-radius: 999px; font-size: 13px; }
   h2 { font-size: 20px; margin: 30px 0 12px; padding-left: 10px; border-left: 4px solid #1b6ca8; }
+  h2.pa { border-left-color: #1b6ca8; }
+  h2.pb { border-left-color: #2e7d4f; }
+  h2.pc { border-left-color: #8e44ad; }
   .card { background: #fff; border-radius: 14px; overflow: hidden; box-shadow: 0 2px 10px rgba(20,50,90,.08); margin-bottom: 16px; }
   .card img { width: 100%; height: 210px; object-fit: cover; display: block; }
   .card .body { padding: 14px 16px 16px; }
   .day-tag { display: inline-block; background: #1b6ca8; color: #fff; font-size: 12px; padding: 2px 10px; border-radius: 999px; margin-bottom: 6px; }
+  .day-tag.b { background: #2e7d4f; }
+  .day-tag.c { background: #8e44ad; }
   .day-tag.alt { background: #c2571b; }
   .card h3 { font-size: 17px; margin-bottom: 6px; }
   .card ul { padding-left: 18px; font-size: 14.5px; }
   .card p { font-size: 14.5px; }
-  .route { background: #fff; border-radius: 14px; padding: 16px 10px 8px; box-shadow: 0 2px 10px rgba(20,50,90,.08); overflow-x: auto; }
   table { width: 100%; border-collapse: collapse; background: #fff; border-radius: 14px; overflow: hidden; box-shadow: 0 2px 10px rgba(20,50,90,.08); font-size: 13.5px; }
   th, td { padding: 9px 10px; border-bottom: 1px solid #e6ecf1; text-align: left; vertical-align: top; }
   th { background: #eef4f9; font-size: 13px; }
@@ -32,8 +36,9 @@
   .no { color: #b03a2e; font-weight: 600; }
   .decide { background: #fff7ec; border: 1.5px dashed #e08b3a; border-radius: 14px; padding: 14px 16px; margin-bottom: 14px; font-size: 14.5px; }
   .decide b { color: #a85a10; }
-  .note { background: #fff; border-radius: 14px; padding: 14px 16px; box-shadow: 0 2px 10px rgba(20,50,90,.08); font-size: 14.5px; }
+  .note { background: #fff; border-radius: 14px; padding: 14px 16px; box-shadow: 0 2px 10px rgba(20,50,90,.08); font-size: 14.5px; margin-bottom: 16px; }
   .note ul { padding-left: 18px; }
+  .warn { background: #fdf0ee; border: 1.5px solid #d98880; border-radius: 14px; padding: 14px 16px; font-size: 14.5px; margin-bottom: 16px; }
   footer { text-align: center; color: #7a8794; font-size: 12.5px; margin-top: 34px; }
   .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
   @media (max-width: 640px) { .grid { grid-template-columns: 1fr; } .card img { height: 180px; } }
@@ -41,7 +46,7 @@
 </head>
 <body>
 <header>
-  <h1>东京 · 伊豆 跨年行</h1>
+  <h1>东京跨年行 · 三方案对比</h1>
   <div class="sub">2026 年 12 月 31 日 — 2027 年 1 月 4 日 · 两人 · 徒步 + 私人温泉 + 海鲜 + 购物</div>
   <div class="flightbar">
     <span>✈️ 12/31 下午 北京出发 · 21:30 落东京羽田</span>
@@ -52,53 +57,42 @@
 
 <div class="wrap">
 
-<h2>路线总览（v4）</h2>
-<div class="route">
-<svg width="820" height="110" viewBox="0 0 820 110" xmlns="http://www.w3.org/2000/svg" font-family="inherit">
-  <defs><marker id="ar" markerWidth="8" markerHeight="8" refX="7" refY="3" orient="auto"><path d="M0,0 L8,3 L0,6 Z" fill="#1b6ca8"/></marker></defs>
-  <line x1="73" y1="48" x2="110" y2="48" stroke="#1b6ca8" stroke-width="2" marker-end="url(#ar)"/>
-  <line x1="188" y1="48" x2="225" y2="48" stroke="#1b6ca8" stroke-width="2" marker-end="url(#ar)"/>
-  <line x1="303" y1="48" x2="340" y2="48" stroke="#1b6ca8" stroke-width="2" marker-end="url(#ar)"/>
-  <line x1="418" y1="48" x2="455" y2="48" stroke="#1b6ca8" stroke-width="2" marker-end="url(#ar)"/>
-  <line x1="533" y1="48" x2="570" y2="48" stroke="#1b6ca8" stroke-width="2" marker-end="url(#ar)"/>
-  <line x1="648" y1="48" x2="685" y2="48" stroke="#1b6ca8" stroke-width="2" marker-end="url(#ar)"/>
-  <circle cx="45" cy="48" r="26" fill="#0d3b66"/><text x="45" y="54" fill="#fff" font-size="13" text-anchor="middle">北京</text>
-  <circle cx="160" cy="48" r="26" fill="#14508a"/><text x="160" y="54" fill="#fff" font-size="12" text-anchor="middle">羽田</text>
-  <circle cx="275" cy="48" r="26" fill="#14508a"/><text x="275" y="54" fill="#fff" font-size="13" text-anchor="middle">品川</text>
-  <circle cx="390" cy="48" r="26" fill="#1b6ca8"/><text x="390" y="54" fill="#fff" font-size="13" text-anchor="middle">伊东</text>
-  <circle cx="505" cy="48" r="26" fill="#1b6ca8"/><text x="505" y="54" fill="#fff" font-size="11" text-anchor="middle">伊豆高原</text>
-  <circle cx="620" cy="48" r="26" fill="#c2571b"/><text x="620" y="54" fill="#fff" font-size="11" text-anchor="middle">东京购物</text>
-  <circle cx="735" cy="48" r="26" fill="#14508a"/><text x="735" y="54" fill="#fff" font-size="12" text-anchor="middle">羽田✈️</text>
-  <text x="275" y="94" fill="#7a8794" font-size="11" text-anchor="middle">12/31 住 1 晚</text>
-  <text x="390" y="94" fill="#7a8794" font-size="11" text-anchor="middle">1/1–1/3 住 2 晚</text>
-  <text x="620" y="94" fill="#7a8794" font-size="11" text-anchor="middle">1/3 住 1 晚</text>
-</svg>
+<h2>三个方案共用的骨架</h2>
+<div class="note">
+  <ul>
+    <li><b>12/31</b>：21:30 落羽田 → 京急 13 分钟到品川，住 1 晚，只睡觉</li>
+    <li><b>1/1–1/3</b>：离开东京，在基地连住 2 晚 — <b>三方案的区别只在这里</b></li>
+    <li><b>1/3</b>：上午北上回东京（避开返程高峰），下午银座/新宿新年初卖购物，东京住 1 晚</li>
+    <li><b>1/4</b>：睡到自然醒，补买伴手礼，12:00 出发去羽田，15:00 飞北京</li>
+    <li>已砍掉：teamLab（不去了）、晴空塔（2017 年去过）</li>
+  </ul>
 </div>
 
-<h2>逐日行程</h2>
+<h2>一图看懂三方案</h2>
+<table>
+  <tr><th style="width:15%"></th><th style="width:28%">A · 伊东</th><th style="width:28%">B · 下田</th><th style="width:29%">C · 静冈/清水</th></tr>
+  <tr><td><b>1/1 车程</b></td><td>踊り子号约 1.5 小时</td><td>踊り子号约 2.7 小时（最远）</td><td>新干线约 1 小时（最近）</td></tr>
+  <tr><td><b>酒店 2 晚</b></td><td>かめや楽寛 <b>¥77,140</b>（无餐）</td><td>清流荘 <b>¥88,920</b>（无餐）</td><td>Associa 静冈 ¥89,800（无餐）起</td></tr>
+  <tr><td><b>私人温泉</b></td><td class="ok">✅ 可预约包场露天风吕（方案含 1 次免费）</td><td class="ok">✅ 房间自带源泉挂流温泉 + 可预约包场</td><td class="no">❌ 无可订的私人温泉（见下方说明）</td></tr>
+  <tr><td><b>主打景色</b></td><td>大室山环火山口 + 城崎海岸</td><td>爪木崎水仙花海 + 石廊崎</td><td>三保松原 + 日本平看富士山</td></tr>
+  <tr><td><b>富士山</b></td><td class="ok">大室山山顶直面，冬季能见度全年最高</td><td class="mid">△ 不是主打（海景为主）</td><td class="ok">经典构图，冬季上午可见率约 70%</td></tr>
+  <tr><td><b>徒步</b></td><td class="ok">城崎海岸 5km，海岸步道主菜</td><td class="ok">须崎海岸步道 2.7km + 岬散策</td><td class="mid">松原海滩散步为主，强度低</td></tr>
+  <tr><td><b>当季限定</b></td><td>水豚泡温泉（冬季限定）</td><td>水仙节盛花期（12/20–1/31）</td><td>—</td></tr>
+  <tr><td><b>1/3 返程</b></td><td>约 1.5 小时</td><td class="mid">约 2.7 小时，车上时间最长</td><td class="ok">新干线约 1 小时，最省力</td></tr>
+  <tr><td><b>硬伤</b></td><td>无明显硬伤</td><td>车程长；清流荘 1/1 余房紧</td><td class="no">温泉不达标，只能住城市酒店</td></tr>
+</table>
+
+<h2 class="pa">方案 A · 伊东（温泉 + 徒步最均衡）</h2>
 
 <div class="card">
-  <div class="body">
-    <span class="day-tag">12/31 周四</span>
-    <h3>抵达日 — 只睡觉</h3>
-    <ul>
-      <li>21:30 落羽田 T3，出关约 22:30–23:00</li>
-      <li>京急电车 13 分钟直达品川（末班 00:08，时间充裕）</li>
-      <li>入住品川酒店 1 晚，洗洗睡</li>
-    </ul>
-  </div>
-</div>
-
-<div class="card">
-  <img src="img/teamlab.jpg" alt="teamLab Planets 涉水光影空间">
   <div class="body">
     <span class="day-tag">1/1 周五</span>
-    <h3>teamLab 早场 → 南下伊东</h3>
+    <h3>睡醒南下 — 伊东到达日</h3>
     <ul>
-      <li>上午：teamLab Planets（丰洲）早场 — 赤脚涉水的沉浸光影展，新年期间 8:00 开门，约 9:00 进场、10:30 出来，人最少（可砍，砍掉就睡醒直接南下）</li>
-      <li>中午：品川坐「踊り子号」特急，约 13:00 到伊东</li>
+      <li>睡到自然醒，行李寄存品川酒店或直接带上车</li>
+      <li>中午品川坐「踊り子号」，约 13:00 到伊东，入住 かめや楽寛</li>
       <li>下午：小室山轻徒步（缆车+山顶海景咖啡）或伊东海岸散步</li>
-      <li>傍晚：入住温泉旅馆，晚餐金目鲷，泡第一汤（包场露天风吕）</li>
+      <li>傍晚：第一汤（包场露天风吕），晚餐吃金目鲷</li>
     </ul>
   </div>
 </div>
@@ -110,9 +104,8 @@
     <span class="day-tag">1/2 周六</span>
     <h3>大室山 — 环火山口看富士山</h3>
     <ul>
-      <li>缆椅登顶（大室山禁止徒步登山），沿火山口走一圈约 1km / 40 分钟</li>
-      <li>冬季是全年富士山能见度最高的季节</li>
-      <li>山脚就是仙人掌动物公园（见下）</li>
+      <li>缆椅登顶，沿火山口走一圈约 1km / 40 分钟</li>
+      <li>冬季富士山能见度全年最高；注意 1 月山体是枯黄色，不是照片里的绿色</li>
     </ul>
   </div>
 </div>
@@ -120,11 +113,10 @@
   <img src="img/jogasaki.jpg" alt="城崎海岸门胁吊桥">
   <div class="body">
     <span class="day-tag">1/2 周六</span>
-    <h3>城崎海岸徒步 — 本趟主菜</h3>
+    <h3>城崎海岸徒步 — 本方案主菜</h3>
     <ul>
-      <li>桥立吊桥 → 门胁吊桥：约 5km / 2.5–3 小时海岸步道</li>
-      <li>熔岩悬崖、松林、海蚀地貌，运动鞋即可</li>
-      <li>走完从城崎海岸站坐伊豆急行回伊东</li>
+      <li>桥立吊桥 → 门胁吊桥：约 5km / 2.5–3 小时</li>
+      <li>熔岩悬崖、松林、海蚀地貌，运动鞋即可，海岸风大带防风外套</li>
     </ul>
   </div>
 </div>
@@ -136,74 +128,118 @@
     <span class="day-tag">1/2 周六 · 取舍项</span>
     <h3>水豚泡温泉 + 伊豆高原灯光秀</h3>
     <ul>
-      <li>伊豆仙人掌动物公园：水豚露天风吕是冬季限定（本季 2026-11-21 至 2027-04-04）</li>
-      <li>⚠️ 若全程走海岸线徒步，下午 13:30 的水豚场次赶不上 — 徒步和水豚二选一，或徒步缩短为吊桥周边散策版</li>
-      <li>天黑后：伊豆高原 Gran Illumi 灯光秀（开到 21:30），回伊东泡第二汤</li>
+      <li>伊豆仙人掌动物公园：水豚露天风吕冬季限定（本季至 2027-04-04）</li>
+      <li>⚠️ 全程走海岸徒步就赶不上 13:30 的水豚场次 — 二选一，或徒步走缩短版</li>
+      <li>天黑后伊豆高原 Gran Illumi 灯光秀，回伊东泡第二汤</li>
     </ul>
   </div>
 </div>
 
-<div class="card">
-  <div class="body">
-    <span class="day-tag alt">1/3 周日</span>
-    <h3>回东京 — 购物日</h3>
-    <ul>
-      <li>上午：伊东坐「踊り子号」北上（1/3 是返程高峰，必须上午走 + 提前抢指定席），中午到东京</li>
-      <li>下午–晚上：银座 / 新宿购物 — 1/3 是百货新年初卖折扣季，商场全开，比元旦当天和机场免税店划算</li>
-      <li>晚上：丸之内灯饰散步或早点回酒店休息，攒体力给返程日</li>
-      <li>东京住 1 晚（品川或银座一带，待定）</li>
-      <li>注：晴空塔 2017 年已去过，本趟不排（富士山展望由大室山/城崎海岸覆盖，无非去不可的新理由）</li>
-    </ul>
-  </div>
-</div>
-
-<div class="card">
-  <div class="body">
-    <span class="day-tag">1/4 周一</span>
-    <h3>补买 + 回家</h3>
-    <ul>
-      <li>睡到自然醒，酒店周边补买伴手礼</li>
-      <li>12:00 左右出发去羽田，机场免税店最后补货</li>
-      <li>15:00 起飞回北京</li>
-    </ul>
-  </div>
-</div>
-
-<h2>徒步线全分析（六条）</h2>
-<table>
-  <tr><th style="width:16%">路线</th><th style="width:26%">数据</th><th style="width:38%">看点与条件</th><th style="width:20%">结论</th></tr>
-  <tr><td><b>城崎海岸线</b>（伊豆）</td><td>约 5km / 2.5–3h，起伏步道</td><td>熔岩悬崖+两座吊桥，伊豆东海岸代表路线；伊东出发当天往返</td><td class="ok">✅ 主推，排 1/2</td></tr>
-  <tr><td><b>大室山环口</b></td><td>约 1km / 40 分钟，平坦</td><td>缆椅上山，环火山口一周；冬季富士山能见度全年最高</td><td class="ok">✅ 排 1/2 上午</td></tr>
-  <tr><td><b>小室山</b>（伊东）</td><td>约 1h，缆车+山顶环路</td><td>海景咖啡，强度最低</td><td class="ok">✅ 排 1/1 下午</td></tr>
-  <tr><td><b>天城山</b>（百名山）</td><td>环线 8.1km / 爬升 705m / 约 5h</td><td>冬季公交结构性不合：巴士一天 3 班、始发到登山口 8:50 已过官方 8:00 入山建议线；山顶 1 月平均 -0.5°C，需轻冰爪。只能租车整日，砍掉 1/2 全部其他安排</td><td class="mid">🔀 备选（不推荐）</td></tr>
-  <tr><td><b>城之岛</b>（三浦半岛）</td><td>约 3km / 2h；品川往返车程约 3.5h</td><td>海蚀拱门+灯塔+三崎金枪鱼都很好，但与伊东反方向，v4 结构里没有半天能塞进去</td><td class="no">❌ 本趟放弃</td></tr>
-  <tr><td><b>高尾山</b>（东京）</td><td>东京出发约 1h</td><td>1/1–1/3 山顶寺院初诣人流为关东顶级规模，缆车排队以小时计，主路线终点即寺院</td><td class="no">❌ 本趟不排</td></tr>
-</table>
-
-<h2>需要一起拍板的事</h2>
-<div class="decide"><b>决策点 1（1/1）：</b>teamLab 早场去不去？去 = 8 点起床赶早场；不去 = 睡到自然醒直接南下伊东。</div>
-<div class="decide"><b>决策点 2（1/2）：</b>城崎海岸线 5km 全程徒步（放弃水豚场次）？还是保留水豚、海岸只走散策版？天城山整日登山版也在桌上（租车+冰爪，砍全天其他安排）。</div>
-<div class="decide"><b>决策点 3（1/3 住哪）：</b>东京最后一晚住品川（去羽田 13 分钟）还是银座一带（下楼就是购物区，去羽田约 40 分钟）？</div>
-
-<h2>住宿（已实查）</h2>
 <div class="note">
-  <ul>
-    <li><b>伊东（1/1–1/3，2 晚）— 首选：かめや楽寛（Kameya Rakan）2 晚 ¥77,140</b>（约 ¥1,775 人民币/晚，预算内）：伊东站步行 3 分钟、禁烟海景和室 10 叠，4 个可预约的包场露天风吕（方案含 1 次 45 分钟免费包场，另有 1 个免费免预约包场池）。无餐，吃饭在伊东站周边解决。余房尚多（1/1 剩 12 间、1/2 剩 15 间）</li>
-    <li>伊东同日期其他结果：游季亭 1/1–1/3 已售罄；聚乐 ¥220,400（超预算 1 倍多）</li>
-    <li><b>东京（12/31 品川 1 晚 + 1/3 1 晚）</b>：待订，1/3 地点见决策点 3</li>
+  <b>住宿（已实查，2026-11-13）：かめや楽寛 2 晚 ¥77,140</b> — 伊东站步行 3 分钟，禁烟海景和室 10 叠；4 个可预约包场露天风吕，方案含 1 次 45 分钟免费包场，另有 1 个免费免预约包场池。无餐，晚餐在伊东站周边解决。余房尚多。同日期游季亭已售罄、聚乐 ¥220,400（超预算）。
+</div>
+
+<h2 class="pb">方案 B · 下田（水仙花海 + 源泉温泉）</h2>
+
+<div class="card">
+  <div class="body">
+    <span class="day-tag b">1/1 周五</span>
+    <h3>一路坐到伊豆最南端 — 下田到达日</h3>
+    <ul>
+      <li>睡醒后品川坐「踊り子号」直达伊豆急下田（约 2 小时 40 分），下午到</li>
+      <li>下田老城散步（佩里路一带）或白滨海岸看海</li>
+      <li>入住清流荘：房间里就是源泉挂流温泉，到店先泡一汤</li>
+    </ul>
+  </div>
+</div>
+
+<div class="grid">
+<div class="card">
+  <img src="img/tsumekizaki.jpg" alt="爪木崎水仙花海">
+  <div class="body">
+    <span class="day-tag b">1/2 周六</span>
+    <h3>爪木崎 — 水仙节正盛期</h3>
+    <ul>
+      <li>水仙节 2026-12-20 至 2027-01-31，约 300 万株野水仙，1 月初正是盛花期（已核实覆盖行程日期）</li>
+      <li>白灯塔 + 俵矶柱状节理海岸；下田站巴士约 15 分钟</li>
+      <li>体力够可走须崎·爪木崎海岸步道约 2.7km</li>
+    </ul>
+  </div>
+</div>
+<div class="card">
+  <img src="img/irozaki.jpg" alt="石廊崎岬角步道">
+  <div class="body">
+    <span class="day-tag b">1/2 周六</span>
+    <h3>石廊崎 — 伊豆半岛最南端</h3>
+    <ul>
+      <li>下田站巴士约 45 分钟，悬崖岬角 + 白色灯塔（日本灯塔 50 选）</li>
+      <li>晴天可望伊豆七岛；海岬步道走一圈约 1 小时</li>
+      <li>傍晚回下田，晚餐吃海鲜，房间里泡源泉汤</li>
+    </ul>
+  </div>
+</div>
+</div>
+
+<div class="note">
+  <b>住宿（已实查，2026-11-20）：清流荘 2 晚 ¥88,920</b>（官网在线预付 5% 优惠价；标准价 ¥93,600）— 和式双床房自带<b>源泉挂流室内温泉</b>，另有可预约的露天包场家庭浴「月夕之汤」¥1,650/50 分钟。该日期只有无餐方案，晚餐可在下田镇上吃或订旅馆送餐。⚠️ 这个房型 1/1 只剩 2 间（11/20 查），选 B 要尽快定。<br>
+  备选：ホテル伊豆急 ¥149,600（含两餐，包场温泉浴另付 ¥2,200/50 分钟）— 超出预算 ¥40,600；观音温泉、别邸洛邑 1/1–1/3 已售罄/候补。
+</div>
+
+<h2 class="pc">方案 C · 静冈/清水（三保松原 + 日本平）</h2>
+
+<div class="card">
+  <img src="img/miho.jpg" alt="三保松原黑沙滩与松林">
+  <div class="body">
+    <span class="day-tag c">1/1 周五</span>
+    <h3>新干线西行 — 三保松原看富士山</h3>
+    <ul>
+      <li>品川坐新干线约 55 分钟到静冈；出发前先看三保实况摄像头确认富士山露脸</li>
+      <li>上午到三保松原：黑沙滩 + 约 3 万株松林 + 隔骏河湾的富士山，世界遗产经典构图，散步约 1.5 小时</li>
+      <li>中午清水港吃金枪鱼（清水是日本金枪鱼卸货量第一的港口）</li>
+      <li>下午日本平梦露台：隈研吾设计的木结构展望台，360° 看富士山+骏河湾+三保松原（1/1 起恢复营业）</li>
+    </ul>
+  </div>
+</div>
+
+<div class="card">
+  <div class="body">
+    <span class="day-tag c">1/2 周六</span>
+    <h3>富士山第二次机会 + 静冈市区</h3>
+    <ul>
+      <li>上午再给富士山一次机会：三保或日本平二选一（哪天天气好去哪天，行程可对调）</li>
+      <li>1/2 是周六，梦露台开到 21:00 — 可以傍晚再去看日落+夜景</li>
+      <li>其余时间静冈市区：骏府城公园散步、静冈茶、站前购物</li>
+      <li>代价：这一天没有徒步主菜，整体是「看景+城市」节奏</li>
+    </ul>
+  </div>
+</div>
+
+<div class="warn">
+  <b>C 方案的硬伤（如实说明）：清水·三保·烧津一带 1/1–1/3 没有可订到的私人温泉住宿。</b>
+  <ul style="padding-left:18px; margin-top:6px;">
+    <li>唯一符合「私人温泉」的烧津<b>汀家</b>（全房自带露天风吕，评分 4.8）：1/1、1/2 只剩候补，订不到（参考价约 ¥48,000/晚起）</li>
+    <li>能订到的只有：<b>静冈站前 Associa ¥89,800</b>（非温泉城市酒店，胜在交通，顶层大堂可看富士山）；<b>烧津 Marine Palace ¥71,400</b>（含两餐，但只有公共室内浴池，且只剩最后 1 间）</li>
+    <li>三保松原旁的老牌三保園酒店已于 2021 年停业；日本平酒店 1/1–1/3 凑不出连住</li>
+    <li>结论：选 C = 用「私人温泉」换「三保+最短车程」，温泉只能降级为公共浴池或不泡</li>
   </ul>
 </div>
+
+<h2>需要一起拍板的事</h2>
+<div class="decide"><b>主决策：</b>三方案选哪个 — A 伊东（均衡，价格最低）、B 下田（花海+源泉房内汤，车程最长）、C 静冈（富士山构图+最省力，但放弃私人温泉）？</div>
+<div class="decide"><b>若选 B：</b>清流荘 1/1 同房型只剩 2 间（11/20 查），决定后建议立刻订；订金方式为在线预付享 5% 优惠。</div>
+<div class="decide"><b>若选 A：</b>1/2 徒步全程还是水豚优先（或徒步缩短版兼顾）？</div>
+<div class="decide"><b>共同项：</b>1/3 东京最后一晚住品川（去羽田 13 分钟）还是银座一带（下楼就是购物区，去羽田约 40 分钟）？</div>
 
 <h2>订票时间点（别错过）</h2>
 <div class="note">
   <ul>
-    <li><b>12 月 1 日 10:00（日本时间）</b>：1/1 南下「踊り子号」指定席开售（年末年始全车指定席，必须抢）</li>
-    <li><b>12 月 3 日 10:00（日本时间）</b>：1/3 回东京车次开售（当天是返程最高峰，越早抢越好）</li>
-    <li><b>teamLab Planets 1/1 早场票</b>：开放预订后第一时间买 9:00 左右场次</li>
+    <li><b>12 月 1 日 10:00（日本时间）</b>：1/1 南下车次指定席开售（A/B 的踊り子号、C 的新干线都适用；年末年始热门车次全席指定，必须抢）</li>
+    <li><b>12 月 3 日 10:00（日本时间）</b>：1/3 回东京车次开售（当天是返程最高峰）</li>
+    <li>酒店：选定方案后尽快订 — 新年档房源只会减少</li>
   </ul>
 </div>
 
-<footer>行程版本 v4 · 2026-11-13 更新 · 机票已出票，酒店与车票待订 · 有修改意见随时更新本页</footer>
+<footer>行程版本 v5（三方案对比）· 2026-11-20 更新 · 机票已出票；酒店价格为 2026 年 11 月实查，订前会再复核 · 有修改意见随时更新本页</footer>
 </div>
 </body>
 </html>
